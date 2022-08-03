@@ -8,6 +8,9 @@ import 'amfe-flexible'
 import './vant.js'
 import 'vant/lib/index.css';
 
+import Api from './request/index.js';
+Vue.prototype.$api = Api;
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
